@@ -240,23 +240,38 @@ Si escribimos left o right nos reproduce un mensaje propio de la elección, pero
 
 #### Comparison Operators
 Aquí se nos introduce a las expresiones de comparación.
+
 `-eq` comprueba si son iguales.
+
 `-ne` comprueba si no son iguales.
+
 `-gt` comprueba cual de las variables es mayor.
+
 `-ge` comprueba cual de las variables es mayor o igual.
+
 `-lt` comprueba cual de las variables es menor.
+
 `-le` comprueba cual de las variables es menor o igual.
 
 #### Comprobación de Strings
 `like` comprueba si un string empieza con el otro string. Por ejemplo, si "hello how are you" empieza por "hello*" donde el asterisco es el comodín para decir cualquier cosa.
+
 `-notlike` hace justo lo contrario al de arriba.
+
 `-match` comprueba si una string contiene otra string.
+
 `-notmatch` comprueba si una string no contiene otra string.
+
 `-constains` comprueba si una lista contiene un número o un string.
+
 `-notcontains` comprueba si una lista no contiene un número o un string.
+
 `-in` devuelve un boolean con true si hay un string o número dentro de una lista y uno con false si es que no.
+
 `-notin` devuelve un boolean con true si no hay un string o número de una lista y uno con false si es que sí.
+
 `-is` devuelve true si una variable es del tipo que le preguntamos.
+
 `-isnot` devuelve true si no es igual a la que le preguntamos.
 
 #### Switch statementes
